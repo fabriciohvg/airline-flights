@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Chinook Music Store",
+  title: "Airline Flights Record",
   description:
-    "A complete sample application built with Next.js 16, Neon DB + Auth and Drizzle ORM.",
+    "A complete sample application built with Next.js 16 and Supabase.",
 };
 
 export default function RootLayout({
@@ -39,7 +39,7 @@ export default function RootLayout({
           <div className="font-sans">
             <nav className="flex items-center justify-between p-4 border-b border-foreground/10">
               <div className="flex items-center justify-between container mx-auto">
-                <p className="tracking-tight">Chinook Music Store</p>
+                <p className="tracking-tight">Airline Flights Record</p>
                 <ModeToggle />
               </div>
             </nav>
